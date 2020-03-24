@@ -27,3 +27,12 @@ strong {
 hr {
   background: #232323;
 }
+
+code {
+  background-color: #2e2e35;
+}
+
+code,
+pre {
+  color: whitesmoke;
+}
