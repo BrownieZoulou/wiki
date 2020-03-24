@@ -2,6 +2,7 @@
 body {
   background-color: #131319;
   color: #cacaca;
+  padding-left: 0;
 }
 
 h1
@@ -35,4 +36,11 @@ code {
 code,
 pre {
   color: whitesmoke;
+}
+
+/*** SIDEBAR ***/
+
+.w3-sidebar {
+  background-color: #25252d;
+  color: #cacaca;
 }

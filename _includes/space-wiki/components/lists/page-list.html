@@ -1,0 +1,42 @@
+<div class="git-wiki-page-list">
+    {% if site.inc_before_page_list %}
+    {% include {{ site.inc_before_page_list }} %}
+    {% endif %}
+
+    <div class="page-list">
+      {% if site.data.space-nav.menu[0] %}
+
+        {% for item in site.data.space-nav.menu %}
+        <button onclick="expandNavItem('{{ item.title | slugify }}')"
+                class="w3-button w3-block w3-left-align">
+          <h3>{{ item.title }}</h3>
+        </button>
+
+            {% if item.subfolderitems[0] %}
+              <div id="{{ item.title | slugify }}" class="w3-container w3-hide">
+                {% for entry in item.subfolderitems %}
+
+                      {% if entry.subsubfolderitems[0] %}
+                        <button onclick="expandNavItem('{{ entry.title | slugify }}')"
+                              class="w3-button w3-block w3-left-align">
+                              {{entry.title}}
+                        </button>
+                        {% for subentry in entry.subsubfolderitems %}
+                            <a href="{{ subentry.url }}">{{ subentry.page }}</a>
+                        {% endfor %}
+                      {% else %}
+                        <a href="{{ entry.url }}">{{ entry.page }}</a>
+                      {% endif %}
+
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endfor %}
+
+      {% endif %}
+    </div>
+
+    {% if site.inc_after_page_list %}
+    {% include {{ site.inc_after_page_list }} %}
+    {% endif %}
+</div>
