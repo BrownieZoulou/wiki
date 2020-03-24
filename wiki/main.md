@@ -21,5 +21,3 @@ Il est entièrement **gratuit**. Les parties s'organisent *ponctuellement* : tou
 3. Cliquez sur *Open* puis entre l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !
 
 ![Rejoindre un serveur](assets/images/byond-connect.png){:height="300px"}
-
-Test
