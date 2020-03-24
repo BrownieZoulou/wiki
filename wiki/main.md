@@ -15,7 +15,11 @@ Il est entièrement **gratuit**. Les parties s'organisent *ponctuellement* : tou
 1. [Téléchargez Byond](http://www.byond.com/download/build/513/513.1517_byond.exe) ([Version Linux](http://www.byond.com/download/build/513/513.1517_byond_linux.zip))
 
 2. Au démarrage, Byond vous demande de vous connecter. **Ce n'est pas obligatoire**, mais prenez le temps de le faire pour avoir votre pseudo en jeu.  
+
 ![Page de connexion Byond](assets/images/byond-login.jpg){:height="300px"}
 
-3. Cliquez sur *Open* puis entre l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !  
+3. Cliquez sur *Open* puis entre l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !
+
 ![Rejoindre un serveur](assets/images/byond-connect.png){:height="300px"}
+
+Test
