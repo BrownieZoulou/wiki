@@ -18,6 +18,8 @@ Il est entièrement **gratuit**. Les parties s'organisent *ponctuellement* : tou
 
 ![Page de connexion Byond](assets/images/byond-login.jpg){:height="300px"}
 
-3. Cliquez sur *Open* puis entre l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !
+3. Cliquez sur **Open** puis entrez l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !
 
 ![Rejoindre un serveur](assets/images/byond-connect.png){:height="300px"}
+
+4. (optionnel) Vous pouvez enregistrer le serveur pour ne pas avoir à copier/coller l'IP à chaque fois : cliquez sur **Add**, ajoutez un nom au serveur et enregistrez le : il apparaîtra dans la liste déroulante.
