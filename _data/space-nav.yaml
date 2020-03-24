@@ -1,11 +1,11 @@
 menu:
   - title: Group 1
-    subfolderitems:
+    items:
       - page: Thing 1
         url: /thing1.html
       - page: Thing 2
         url: /thing2.html
-        subsubfolderitems:
+        items:
           - page: Subthing 1
             url: /subthing1.html
           - page: Subthing 2
@@ -13,14 +13,14 @@ menu:
       - page: Thing 3
         url: /thing3.html
   - title: Group 2
-    subfolderitems:
+    items:
       - page: Piece 1
         url: /piece1.html
       - page: Piece 2
         url: /piece2.html
       - page: Piece 3
         url: /piece3.html
-        subsubfolderitems:
+        items:
           - page: Subpiece 1
             url: /subpiece1.html
           - page: Subpiece2
@@ -29,7 +29,7 @@ menu:
     subfolderitems:
       - page: Widget 1
         url: /widget1.html
-        subsubfolderitems:
+        items:
           - page: Subwidget 1
             url: /subwidget1.html
           - page: Subwidget 2
