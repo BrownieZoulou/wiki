@@ -5,8 +5,7 @@ menu:
         url: /thing1.html
       - page: Thing 2
         url: /thing2.html
-        - title: Something
-          subsubfolderitems:
+        subsubfolderitems:
           - page: Subthing 1
             url: /subthing1.html
           - page: Subthing 2
@@ -21,8 +20,7 @@ menu:
         url: /piece2.html
       - page: Piece 3
         url: /piece3.html
-        - title: Something
-          subsubfolderitems:
+        subsubfolderitems:
           - page: Subpiece 1
             url: /subpiece1.html
           - page: Subpiece2
@@ -31,8 +29,7 @@ menu:
     subfolderitems:
       - page: Widget 1
         url: /widget1.html
-        - title: Something
-          subsubfolderitems:
+        subsubfolderitems:
           - page: Subwidget 1
             url: /subwidget1.html
           - page: Subwidget 2

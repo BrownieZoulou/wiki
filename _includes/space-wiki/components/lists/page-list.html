@@ -17,12 +17,14 @@
                 {% for entry in item.subfolderitems %}
 
                       {% if entry.subsubfolderitems[0] %}
-                        <button onclick="expandNavItem('{{ entry.title | slugify }}')"
+                        <button onclick="expandNavItem('{{ entry.page | slugify }}')"
                               class="w3-button w3-block w3-left-align">
                               {{entry.title}}
                         </button>
                         {% for subentry in entry.subsubfolderitems %}
+                          <div id="{{ entry.page | slugify }}" class="w3-container w3-hide">
                             <a href="{{ subentry.url }}">{{ subentry.page }}</a>
+                          </div>
                         {% endfor %}
                       {% else %}
                         <a href="{{ entry.url }}">{{ entry.page }}</a>
@@ -34,6 +36,17 @@
           {% endfor %}
 
       {% endif %}
+
+      <script>
+        function expandNavItem(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else {
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+      </script>
     </div>
 
     {% if site.inc_after_page_list %}
