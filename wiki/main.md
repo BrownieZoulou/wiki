@@ -12,14 +12,14 @@ Il est entièrement **gratuit**. Les parties s'organisent *ponctuellement* : tou
 
 ## Installer SS13 et rejoindre le serveur
 
-1. [Téléchargez Byond](http://www.byond.com/download/build/513/513.1517_byond.exe) ([Version Linux](http://www.byond.com/download/build/513/513.1517_byond_linux.zip))
+* [Téléchargez Byond](http://www.byond.com/download/build/513/513.1517_byond.exe) ([Version Linux](http://www.byond.com/download/build/513/513.1517_byond_linux.zip))
 
-2. Au démarrage, Byond vous demande de vous connecter. **Ce n'est pas obligatoire**, mais prenez le temps de le faire pour avoir votre pseudo en jeu.  
+* Au démarrage, Byond vous demande de vous connecter. **Ce n'est pas obligatoire**, mais prenez le temps de le faire pour avoir votre pseudo en jeu.  
 
 ![Page de connexion Byond](assets/images/byond-login.jpg){:height="300px"}
 
-3. Cliquez sur **Open** puis entrez l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !
+* Cliquez sur **Open** puis entrez l'IP du serveur : `byond://pas.encore.defini.lol` et cliquez sur OK. Vous êtes en jeu (si le serveur est ouvert) !
 
 ![Rejoindre un serveur](assets/images/byond-connect.png){:height="300px"}
 
-4. (optionnel) Vous pouvez enregistrer le serveur pour ne pas avoir à copier/coller l'IP à chaque fois : cliquez sur **Add**, ajoutez un nom au serveur et enregistrez le : il apparaîtra dans la liste déroulante.
+* (optionnel) Vous pouvez enregistrer le serveur pour ne pas avoir à copier/coller l'IP à chaque fois : cliquez sur **Add**, ajoutez un nom au serveur et enregistrez le : il apparaîtra dans la liste déroulante.
