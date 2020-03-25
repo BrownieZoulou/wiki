@@ -1,6 +1,6 @@
 menu:
   - title: Accueil
-    url: "/main"
+    url: "main"
   - title: Lore
     items:
       - page: Histoire

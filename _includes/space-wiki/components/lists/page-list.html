@@ -1,5 +1,4 @@
 <div class="git-wiki-page-list">
-  <h2>CHANGED</h2>
     {% if site.inc_before_page_list %}
     {% include {{ site.inc_before_page_list }} %}
     {% endif %}
@@ -23,20 +22,20 @@
                 <ul class="content">
 
                 {% for subsubitem in subitem.items %}
-                  <li><a href="{{subsubitem.url}}">{{subsubitem.page}}</a></li>
+                  <li><a href="/wiki/{{subsubitem.url}}">{{subsubitem.page}}</a></li>
                 {% endfor %}
                 </ul>
               </div>
 
               {% else %}
-                <li><a href="{{subitem.url}}">{{subitem.page}}</a></li>
+                <li><a href="/wiki/{{subitem.url}}">{{subitem.page}}</a></li>
               {% endif %}
             {% endfor %}
 
           </ul>
         </div>
       {% elsif group.url %}
-        <div class="section"><a href="{{group.url}}">{{group.title}}</a></div>
+        <div class="section"><a href="/wiki/{{group.url}}">{{group.title}}</a></div>
       {% endif %}
     {% endfor %}
 
