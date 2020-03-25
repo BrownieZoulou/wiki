@@ -1,0 +1,27 @@
+<div class="git-wiki-tools action-bar-container">
+
+    		<ul class="action-bar clearfix">
+
+    			<li>
+    				<a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}{{ site.wiki_folder }}" class="action-add">
+              <i class="fa fa-plus"></i>
+    					<span class="tooltip">Créer</span>
+    				</a>
+    			</li>
+
+    			<li>
+    				<a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}{{page.path | escape}}" class="action-edit">
+    					<i class="fa fa-edit"></i>
+    					<span class="tooltip">Modifier</span>
+    				</a>
+    			</li>
+
+    			<li>
+    				<a target="_blank" href="{{ site.github.repository_url }}/delete/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}" class="action-remove">
+    					<i class="far fa-trash-alt"></i>
+    					<span class="tooltip">Supprimer</span>
+    				</a>
+    			</li>
+
+    		</ul>
+</div>
