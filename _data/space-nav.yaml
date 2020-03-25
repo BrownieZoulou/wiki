@@ -1,40 +1,31 @@
 menu:
-  - title: Group 1
+  - title: Accueil
+    url: "/main"
+  - title: Lore
     items:
-      - page: Thing 1
+      - page: Histoire
         url: /thing1.html
-      - page: Thing 2
+      - page: Personnages
         url: /thing2.html
         items:
-          - page: Subthing 1
+          - page: Cdt. Johnson
             url: /subthing1.html
-          - page: Subthing 2
+          - page: Janitor Albert
             url: /subthing2.html
-      - page: Thing 3
+      - page: L'entreprise Space Express
         url: /thing3.html
-  - title: Group 2
+  - title: Guides
     items:
-      - page: Piece 1
+      - page: Guide du débutant
         url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
-      - page: Piece 3
+      - page: Guides métiers
         url: /piece3.html
         items:
-          - page: Subpiece 1
+          - page: Mineur
             url: /subpiece1.html
-          - page: Subpiece2
+          - page: Cuisinier
             url: /subpiece2.html
-  - title: Group 3
-    subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
-        items:
-          - page: Subwidget 1
-            url: /subwidget1.html
-          - page: Subwidget 2
-            url: /subwidget2.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
+          - page: Chef de la sécurité
+            url: /subpiece2.html
+          - page: Janitor
+            url: /subpiece2.html
