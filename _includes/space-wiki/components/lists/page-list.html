@@ -47,18 +47,4 @@
     {% include {{ site.inc_after_page_list }} %}
     {% endif %}
 
-<script>
-  // Make accordion collapsable
-  document.addEventListener("DOMContentLoaded", e => {
-    const radios = querySelectorAll(".accordion [type='radio']");
-
-    for (let radio in radios) {
-      radio.addEventListener("click", function(e) {
-        if (this.checked) {
-          this.checked = false;
-        }
-      });
-    }
-  });
-</script>
 </div>
