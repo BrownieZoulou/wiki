@@ -1,7 +1,9 @@
 ---
-redirect_from: "/"
+redirect_from: /
+published: true
 ---
 
+# Nique ta mère
 # Les Paumés de Space Station 13 !
 
 ## C'est quoi ? 
