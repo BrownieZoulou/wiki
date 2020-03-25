@@ -176,3 +176,18 @@ body>.wrapper {
 .action-edit .tooltip,
 .action-edit .tooltip:before { background: #ababab; }
 .action-edit:hover { background: #929292; }
+
+/*** TABLE OF CONTENTS ***/
+
+#git-wiki-toc {
+  width: 25%;
+  padding: 20px;
+  padding-left: 40px;
+
+  border: dashed 1px gray;
+  background-color: #25252d;
+}
+
+#git-wiki-toc ol {
+  margin: 0;
+}
