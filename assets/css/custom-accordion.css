@@ -25,7 +25,7 @@
   z-index: 10;
   overflow-y: auto;
 }
-.accordion .section label {
+.accordion .section label, .accordion li, .accordion div>a {
   position: relative;
   cursor: pointer;
   padding: 10px 20px;
