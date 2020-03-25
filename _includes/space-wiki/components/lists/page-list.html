@@ -1,14 +1,16 @@
 <div class="git-wiki-page-list">
+  <h2>CHANGED</h2>
     {% if site.inc_before_page_list %}
     {% include {{ site.inc_before_page_list }} %}
     {% endif %}
 
+    {% if site.data.space-nav.menu[0] %}
     <div class="accordion">
-      {% if site.data.space-nav.menu[0] %}
+
       {% for group in site.data.space-nav.menu %}
 
         {% if group.items[0] %}
-          <div class="section"><input type="radio" name="accordion-{{group.title}}" id="{{group.title | slugify}}" value="toggle" />
+          <div class="section"><input type="radio" name="accordion-1" id="{{group.title | slugify}}" value="toggle" />
             <label for="{{group.title | slugify}}"> <span>{{group.title}}</span> </label>
 
             <ul class="content">
@@ -23,8 +25,7 @@
                 {% for subsubitem in subitem.items %}
                   <li><a href="{{subsubitem.url}}">{{subsubitem.page}}</a></li>
                 {% endfor %}
-
-                </div>
+                </ul>
               </div>
 
               {% else %}
@@ -32,16 +33,14 @@
               {% endif %}
             {% endfor %}
 
-            </div>
+          </ul>
+        </div>
 
-          </div>
-        {% endif %}
-
-      {% endfor %}
       {% endif %}
+    {% endfor %}
 
-
-    </div>
+  </div>
+  {% endif %}
 
     {% if site.inc_after_page_list %}
     {% include {{ site.inc_after_page_list }} %}
