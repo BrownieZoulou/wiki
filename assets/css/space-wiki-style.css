@@ -39,8 +39,23 @@ pre {
 }
 
 /*** SIDEBAR ***/
+body>.wrapper {
+  position: relative;
+}
 
-.w3-sidebar {
+#git-wiki-sidebar{
   background-color: #25252d;
   color: #cacaca;
+
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: scroll;
+
+  -ms-overflow-style: none;
+}
+
+#git-wiki-sidebar::-webkit-scrollbar {
+  display: none;
 }
