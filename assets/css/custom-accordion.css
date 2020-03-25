@@ -6,20 +6,20 @@
 .accordion .section {
   width: 100%;
 }
-.accordion .section input[type='radio'] {
+.accordion .section input[type='checkbox'] {
   display: none;
 }
-.accordion .section input[type='radio']:checked + label {
+.accordion .section input[type='checkbox']:checked + label {
   background: #363636;
 }
-.accordion .section input[type='radio']:checked + label:before {
+.accordion .section input[type='checkbox']:checked + label:before {
   content: " ";
   position: absolute;
   border-left: 3px solid #21CCFC;
   height: 100%;
   left: 0;
 }
-.accordion .section input[type='radio']:checked ~ .content {
+.accordion .section input[type='checkbox']:checked ~ .content {
   max-height: 300px;
   opacity: 1;
   z-index: 10;
@@ -92,10 +92,10 @@
 .accordion .section .content {
   padding: 0 15px;
 }
-.accordion .section input[type='radio'] {
+.accordion .section input[type='checkbox'] {
   display: none;
 }
-.accordion .section input[type='radio']:checked ~ .content {
+.accordion .section input[type='checkbox']:checked ~ .content {
   padding: 15px;
 }
 

@@ -9,7 +9,7 @@
       {% for group in site.data.space-nav.menu %}
 
         {% if group.items[0] %}
-          <div class="section"><input type="radio" name="accordion-1" id="{{group.title | slugify}}" value="toggle" />
+          <div class="section"><input type="checkbox" name="accordion-1" id="{{group.title | slugify}}" value="toggle" />
             <label for="{{group.title | slugify}}"> <span>{{group.title}}</span> </label>
 
             <ul class="content">
@@ -17,7 +17,7 @@
             {% for subitem in group.items %}
               {% if subitem.items[0] %}
 
-              <div class="section"><input type="radio" name="accordion-{{subitem.page | slugify}}" id="{{subitem.page | slugify}}" value="toggle" />
+              <div class="section"><input type="checkbox" name="accordion-{{subitem.page | slugify}}" id="{{subitem.page | slugify}}" value="toggle" />
                 <label for="{{subitem.page | slugify}}"> <span>{{subitem.page}}</span> </label>
                 <ul class="content">
 
